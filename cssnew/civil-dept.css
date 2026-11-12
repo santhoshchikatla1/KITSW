@@ -1,0 +1,16 @@
+ul#nav_accordion .nav-item {
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+}
+.civil .side-menu-list {
+    list-style: none;
+    min-height: 1000px;
+}
+.civil {
+    /* background: #F5F5F5; */
+    overflow-y: scroll;
+    margin-bottom: 25px;
+    background: url(../img/department-images/footer-bg1.jpg);
+    background-size: cover;
+    background-position: bottom;
+}

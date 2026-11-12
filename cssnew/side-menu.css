@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+/* .side-box-menu{
+    margin-top: -17px;
+} */
+.sidebar-box{
+    position: fixed;
+    left: 0px;
+    background: #f1f1f1;
+    border: 0px;
+    border-radius: 0px;
+    height: 100%;
+    width:20%;
+    overflow-y: scroll;
+}
+ul#nav_accordion .nav-item {
+    border-bottom: 1px solid #ddd;
+    width:100%;
+    float:left;
+}
+li.nav-item.has-submenu a i {
+    float: right;
+}
+nav.sidebar-box a {
+    font-size: 14px;
+    color: #000;
+}
+.scrollbar
+{
+
+	background: #F5F5F5;
+	overflow-y: scroll;
+	margin-bottom: 25px;
+}
+
+/* .force-overflow
+{
+	min-height: 450px;
+} */
+#style-3::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+#style-3::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+#style-3::-webkit-scrollbar-thumb
+{
+	background-color: #fa7e7e;
+}
+.sticky {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
